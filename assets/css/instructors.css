@@ -1,0 +1,101 @@
+/* Main css file for the index.html page */
+
+/* General styles */
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: gray;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav a.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+nav a.nav-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Section containing main image and instructors */
+.main-instructor-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Main image styles */
+.main-instructor-image {
+  margin-bottom: 30px;
+}
+
+.main-instructor-img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Instructors section */
+.instructors-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.instructors-section h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Instructor grid: horizontal layout */
+
+.instructor-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /8 To allow wrapping on small screen */
+  padding: 10px 0;
+  gap: 20px;
+}
+
+/* Individual instructor cards */
+.instructor-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 220px;
+  text-align: center;
+}
+
+.instructor-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.instructor-card h3 {
+  margin: 10px 0 5px;
+}
+
+.instructor-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+</style> 

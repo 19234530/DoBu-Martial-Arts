@@ -1,0 +1,83 @@
+/* Main css file for the index.html page */
+
+/* General styles */
+
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: gray;
+}
+
+header {
+  background-color:gray;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav a.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  
+
+}
+
+nav a.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-section {
+  padding: 40px 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+
+
+
+
